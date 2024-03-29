@@ -1,0 +1,14 @@
+{
+  "name": "mitre-attack-collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@clickhouse/client": "^0.2.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
